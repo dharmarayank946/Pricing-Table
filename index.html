@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VEDA Technology Internship Task 12 - Clean and modern pricing table with three distinct plans: Basic, Pro, and Premium.">
+  <title>Pricing Plans | VEDA Technology Task 12</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- MAIN WRAPPER -->
+  <main class="page-container">
+
+    <!-- HEADER SECTION -->
+    <header class="pricing-header">
+      <span class="sub-badge">Flexible &amp; Transparent</span>
+      <h1 class="main-title">Choose the Right Plan for You</h1>
+      <p class="subtitle">
+        Simple, predictable pricing crafted to scale with your ambitions. 
+        Select the package that fits your current goals.
+      </p>
+    </header>
+
+    <!-- PRICING CARDS GRID -->
+    <section class="pricing-grid" aria-label="Subscription Plans">
+
+      <!-- 1. BASIC PLAN -->
+      <article class="pricing-card" id="plan-basic">
+        <div class="card-header">
+          <h2 class="plan-name">Basic Plan</h2>
+          <p class="plan-desc">Essential tools and foundational access suitable for beginners.</p>
+        </div>
+
+        <div class="price-container">
+          <span class="currency">₹</span>
+          <span class="amount">499</span>
+          <span class="billing-period">/month</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <ul class="feature-list" aria-label="Basic Plan Features">
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>Basic features</span>
+          </li>
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>Standard support</span>
+          </li>
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>Limited access</span>
+          </li>
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>Suitable for beginners</span>
+          </li>
+        </ul>
+
+        <div class="card-footer">
+          <button type="button" class="btn btn-secondary" id="btn-basic" aria-label="Select Basic Plan">
+            Choose Basic
+          </button>
+        </div>
+      </article>
+
+      <!-- 2. PRO PLAN (HIGHLIGHTED / MOST POPULAR) -->
+      <article class="pricing-card card-popular" id="plan-pro">
+        <div class="popular-badge" aria-label="Most Popular Plan">Most Popular</div>
+
+        <div class="card-header">
+          <h2 class="plan-name">Pro Plan</h2>
+          <p class="plan-desc">Comprehensive toolset with priority service suitable for regular users.</p>
+        </div>
+
+        <div class="price-container">
+          <span class="currency">₹</span>
+          <span class="amount">999</span>
+          <span class="billing-period">/month</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <ul class="feature-list" aria-label="Pro Plan Features">
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>All Basic features</span>
+          </li>
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>Advanced features</span>
+          </li>
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>Priority support</span>
+          </li>
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>Suitable for regular users</span>
+          </li>
+        </ul>
+
+        <div class="card-footer">
+          <button type="button" class="btn btn-primary" id="btn-pro" aria-label="Select Pro Plan">
+            Choose Pro
+          </button>
+        </div>
+      </article>
+
+      <!-- 3. PREMIUM PLAN -->
+      <article class="pricing-card" id="plan-premium">
+        <div class="card-header">
+          <h2 class="plan-name">Premium Plan</h2>
+          <p class="plan-desc">Full suite of capabilities and premier guidance suitable for advanced users.</p>
+        </div>
+
+        <div class="price-container">
+          <span class="currency">₹</span>
+          <span class="amount">1,999</span>
+          <span class="billing-period">/month</span>
+        </div>
+
+        <div class="divider"></div>
+
+        <ul class="feature-list" aria-label="Premium Plan Features">
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>All Pro features</span>
+          </li>
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>All features included</span>
+          </li>
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>Premium support</span>
+          </li>
+          <li class="feature-item">
+            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            <span>Suitable for advanced users</span>
+          </li>
+        </ul>
+
+        <div class="card-footer">
+          <button type="button" class="btn btn-secondary" id="btn-premium" aria-label="Select Premium Plan">
+            Choose Premium
+          </button>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- TRUST BADGES / ASSURANCE -->
+    <section class="trust-section" aria-label="Guarantee and Trust Information">
+      <div class="trust-item">
+        <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+        </svg>
+        <span>Secure Payment</span>
+      </div>
+      <div class="trust-item">
+        <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+        </svg>
+        <span>Instant Activation</span>
+      </div>
+      <div class="trust-item">
+        <svg class="trust-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l6-5.19"></path>
+        </svg>
+        <span>Cancel Anytime</span>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+      <p>VEDA Technology Web Development Internship &bull; Task 12 &bull; Developed by Nagalambika D Koralli</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
